@@ -5,7 +5,7 @@
 }
 
 .index-banner-bg {
-	height: 570px;
+	height: 566px;
 	overflow: hidden;
 }
 
@@ -42,4 +42,98 @@
 .index-banner-text .text-info .text {
 	margin: 0 26px;
 
+}
+
+/*Menu部分*/
+.index-menu {
+	position: relative;
+	border-top: 4px solid #f34949;
+}
+
+.index-menu .menu-tips {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -78px;
+	width: 156px;
+	height: 75px;
+	text-align: center;
+	line-height: 65px;
+	color: #fff;
+	background-color: #f34949;
+}
+.index-menu .menu-tips:after {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid #fff;
+}
+
+.index-menu .menu-list {
+	margin-top: 150px;
+    color: #555;
+    overflow: hidden;
+}
+
+.index-menu .menu-list ul {
+	width: 1160px;
+}
+
+.index-menu .menu-item {
+    float: left;
+    width: 520px;
+    margin-right: 60px;
+    margin-bottom: 56px;
+}
+
+.index-menu .menu-item .title, .index-menu .menu-item .line {
+	float: left;
+}
+
+.index-menu .menu-item .price {
+	float: right;
+}
+
+.index-menu .menu-item .title {
+	width: 230px;
+	color: #555;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.index-menu .menu-item .comment {
+    margin-top: 4px;
+    color: #b7b7b7;
+    font-size: 12px;
+}
+
+.index-menu .menu-item .line {
+	width: 192px;
+	margin-top: 10px;
+	border-top: 1px solid #e3e1e1;
+}
+
+.index-menu .menu-more-btn {
+    width: 144px;
+    height: 32px;
+    margin: 0 auto;
+    padding-left: 16px;	
+    color: #b7b7b7;
+    font-size: 14px;
+    line-height: 32px;
+    border: 1px solid #d7d5d5;
+}
+
+.index-menu .menu-more-btn .icon {
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+	background: url(../imgs/index-btn-icon.png) no-repeat;
+	margin-left: 10px;
 }

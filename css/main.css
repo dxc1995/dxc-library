@@ -140,7 +140,6 @@
 
 .index-panel {
 	margin-top: 200px;
-	border: 1px solid red;
 }
 
 .index-panel-header h3 {
@@ -178,4 +177,49 @@
 
 .index-panel-body {
 	margin-top: 75px;
+}
+
+.index-food-list {
+	overflow: hidden;
+}
+
+.index-food-list ul {
+    width: 1160px;
+}
+
+.index-food-list .food-item {
+	float: left;
+	width: 230px;
+	margin-right: 60px;
+}
+
+.index-food-list .food-item .banner {
+	margin-bottom: 30px;
+	height: 202px;
+}
+
+.index-food-list .name {
+	color: #555;
+	margin-bottom: 10px;
+}
+
+.index-food-list .price {
+    float: right;
+}
+
+.index-food-list .food-item .start-bar {
+	font-size: 0;
+}
+
+.index-food-list .food-item .start {
+	display: inline-block;
+	width: 12px;
+	height: 13px;
+	margin-right: 5px;
+	background-image: url(../imgs/index-star.png);
+	background-repeat: no-repeat;
+}
+
+.index-food-list .food-item .nostart {
+	background-position: 0 -13px;
 }

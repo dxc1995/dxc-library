@@ -37,6 +37,7 @@
 	width: 40px;
 	border-top: 1px solid #fff;
 	vertical-align: middle;
+	*margin-top: 22px; /*兼容ie7*/
 }
 
 .index-banner-text .text-info .text {
@@ -153,7 +154,7 @@
 .index-panel-header .line {
     float: left;
     width: 200px;
-    margin-top: 7px;
+    margin-top: 10px;
     border-top: 1px solid #e5e3e3;
 }
 
@@ -221,7 +222,7 @@
 }
 
 .index-food-list .food-item .nostart {
-	background-position: 0 -13px;
+	background-position: 0 -12px;
 }
 
 .index-pics {
